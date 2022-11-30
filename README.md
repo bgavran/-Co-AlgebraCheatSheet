@@ -1,6 +1,4 @@
 # Initial algebra / Final coalgebra cheatsheet
-List of initial algebras and final coalgebras of functors
-
 
 Suggestions about terminology, a ways to organise this table and are welcome. Feel free to create a pull request.
 
