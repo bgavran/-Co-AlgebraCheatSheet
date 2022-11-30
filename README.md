@@ -10,8 +10,8 @@ Base category | Endofunctor                     | Initial Algebra        | Final
 $\mathbf{Set}$ | $\text{Const } A$           | $\emptyset$            | $A$                           |
 $\mathbf{Set}$ | $X \mapsto X$               | $\emptyset$            | $1$                           |
 $\mathbf{Set}$ | $X \mapsto A\times X$       | $\emptyset$            | $\text{Stream } A$            |
-$\mathbf{Set}$ | $X \mapsto A + X$           | $A \times \mathbb{N}$  | $A \times \mathbb{N}^\infty$  |
-$\mathbf{Set}$ | $X \mapsto 1 + X$           | $\mathbb{N}$           | $\mathbb{N}^\infty$ |
+$\mathbf{Set}$ | $X \mapsto A + X$           | $A \times \mathbb{N}$  | $A \times \mathbb{N}_\infty$  |
+$\mathbf{Set}$ | $X \mapsto 1 + X$           | $\mathbb{N}$           | $\mathbb{N}_\infty$ |
 $\mathbf{Set}$ | $X \mapsto [A, X]$           | $[A, \emptyset]$      | 1                             |
 $\mathbf{Set}$ | $X \mapsto 1 + A \times X$           | List $A$      | Potentially infinite List $A$ |
 $\mathbf{Set}$ | $X \mapsto 1 + A \times X^2$           | Finite binary tree with $A$-labelled nodes  | Potentially infinite binary tree with $A$-labelled nodes |
