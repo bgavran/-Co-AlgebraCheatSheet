@@ -4,14 +4,16 @@ List of initial algebras and final coalgebras of functors
 
 Suggestions about terminology, a ways to organise this table and are welcome. Feel free to create a pull request.
 
+Here we assume the base category $\mathbf{Set}$, even though many of the constructions here are more general.
 
-| Functor                     | Initial Algebra        | Final Coalgebra               |
+
+| Endofunctor                     | Initial Algebra        | Final Coalgebra               |
 | :------------               | :------------:         |:---------------:              |
 | $\text{Const } A$           | $\emptyset$            | $A$                           |
 | $X \mapsto X$               | $\emptyset$            | $1$                           |
 | $X \mapsto A\times X$       | $\emptyset$            | $\text{Stream } A$            |
 | $X \mapsto A + X$           | $A \times \mathbb{N}$  | ?                             |
-| $X \mapsto A + X$           | $\mathbb{N}$           | ?                             |
+| $X \mapsto 1 + X$           | $\mathbb{N}$           | ?                             |
 | $X \mapsto [A, X]$           | $[A, \emptyset]$      | 1                             |
 | $X \mapsto 1 + A \times X$           | List $A$      | Potentially infinite List $A$ |
 | $X \mapsto 1 + A \times X^2$           | Finite binary tree with $A$-labelled nodes  | Potentially infinite binary tree with $A$-labelled nodes |
@@ -20,5 +22,5 @@ Suggestions about terminology, a ways to organise this table and are welcome. Fe
 | $X \mapsto [I, O \times X]$           | ? | ? |
 | $X \mapsto \Sigma_{k : \mathbb{N}} a_k \times X^k$           | ? | ? |
 | $X \mapsto X + X$           | ? | ? |
-| $X \mapsto \mathcal{P}$            | ? | ? |
+| $X \mapsto \mathcal{P}(X)$            | ? | ? |
 
