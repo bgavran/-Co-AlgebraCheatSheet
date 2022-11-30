@@ -2,7 +2,7 @@
 
 Suggestions about terminology, a ways to organise this table and are welcome. Feel free to create a pull request.
 
-Here we assume the base category $\mathbf{Set}$, and a $\mathbf{Set}$-enriched endofunctor, even though many of the constructions here are more general.
+Here we assume the base category $\mathbf{Set}$, even though many of the constructions here are more general.
 
 
 Base category | Endofunctor                     | Initial Algebra        | Final Coalgebra               |
@@ -18,7 +18,6 @@ $\mathbf{Set}$ | $X \mapsto 1 + A \times X^2$           | Finite binary tree wit
 $\mathbf{Set}$ | $X \mapsto B + A \times X^n$           | Finite $n$-ary tree with $A$-labelled nodes and $B$-labelled leaves | Potentially infinite $n$-ary tree with $A$-labelled nodes with and $B$-labelled leaves|
 $\mathbf{Set}$ | $X \mapsto O + [I, X]$           | $O \times [I, \emptyset ]$ | Potentially infinite Moore machine |
 $\mathbf{Set}$ | $X \mapsto [I, O \times X]$           | ? | Potentially infinite Mealy machine |
-$\mathbf{Set}$ | $X \mapsto X + X$           | ? | ? |
+$\mathbf{Set}$ | $X \mapsto X + X$           | $\emptyset$ | $\mathbb{N}^2$ |
 $\mathbf{Set}$ | $X \mapsto X \times X$           | $\emptyset$ | Infinite binary trees |
-$\mathbf{Set}$ | $X \mapsto \mathcal{P}(X)$            | ? | ? |
-
+$\mathbf{Set}$ | $X \mapsto \mathcal{P}(X)$            | / | / |
