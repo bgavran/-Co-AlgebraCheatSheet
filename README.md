@@ -6,7 +6,7 @@ Here we assume the base category $\mathbf{Set}$, and a $\mathbf{Set}$-enriched e
 
 
 Base category | Endofunctor                     | Initial Algebra        | Final Coalgebra               |
-:-- | :------------               | :------------:         |:---------------:              |
+:------- | :------------               | :-------------:         |:----------------:              |
 $\mathbf{Set}$ | $\text{Const } A$           | $\emptyset$            | $A$                           |
 $\mathbf{Set}$ | $X \mapsto X$               | $\emptyset$            | $1$                           |
 $\mathbf{Set}$ | $X \mapsto A\times X$       | $\emptyset$            | $\text{Stream } A$            |
