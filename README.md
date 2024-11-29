@@ -1,5 +1,9 @@
 # Initial algebra / Final coalgebra cheatsheet
 
+Note: This cheat sheet is now at [nLab](https://ncatlab.org/nlab/show/list+of+notable+initial+algebras+and+terminal+coalgebras) and this repository is not maintained anymore. If you wish to add anything, please do it there.
+
+---
+
 Suggestions about terminology, a ways to organise this table and are welcome. Feel free to create a pull request.
 
 Here we assume the base category $\mathbf{Set}$, even though many of the constructions here are more general.
